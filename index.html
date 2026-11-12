@@ -1,0 +1,78 @@
+<!-- ============================================================ -->
+<!-- FILE 1: index.html (Accueil / Home)                          -->
+<!-- ============================================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home page</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav>
+    <a href="index.html">Home</a> &nbsp;|&nbsp;
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <hr />
+
+  <!-- ====== PAGE: ACCUEIL ====== -->
+  <section>
+    <table style="width:100%; border-collapse: collapse;">
+      <tr>
+        <td style="vertical-align: top; padding-right: 2rem;">
+          <h1>Riyad Derguini</h1>
+          <p><strong>Theoretical CS Master's Student @ Sorbonne Paris North University</strong></p>
+
+          <address>
+             Email : <a>riyad.derguini@yahoo.com</a>
+             <br/>
+             Mobile : <a>+33 7 50 00 70 90</a>
+             <br/>
+             Github : <a href="https://github.com/ry4drg">here</a>
+          </address>
+
+          <p>
+            Interests: Statistics, measure-theoretic probability (<a href="https://drive.google.com/file/d/1ta85I2mvhYteXMH84YcQxgRfO8VoJ3Wi/view?usp=sharing">checkout chapters 2 and 3</a>), <a href="https://www.youtube.com/watch?v=5M6bAmDkF9o&list=PLalVpau_VTS4">algorithmic geometry</a>, and more recently <a href="https://www.asml.com/en/products/computational-lithography">computational lithography</a>.
+          </p>
+        </td>
+        <td style="vertical-align: top; text-align: right; width: 200px;">
+          <img src="./photo.jpeg" 
+               alt="Profile photo" 
+               style="width: 321px; height: 320px; object-fit: cover; border: 2px solid #ddd;" 
+               title="pfp" />
+        </td>
+      </tr>
+    </table>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>2027 (In Progress)</strong> First year of Master's degree in Computer Science @ Sorbonne Paris North University - France</li>
+      <li><strong>2026</strong> Bachelor's degree in Computer Science @ Sorbonne Paris North University - France</li>
+    </ul>
+  </section>
+
+  <hr />
+
+  <footer>
+    <span>last update: october 2026</span>
+  </footer>
+
+  <!-- Cursor effect -->
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+  <script>
+    window.addEventListener("load", (event) => {
+      new cursoreffects.textFlag({ 
+        text: "hello :)", 
+        color: ["#0d00ff"] 
+      });
+    });
+  </script>
+</body>
+</html>
